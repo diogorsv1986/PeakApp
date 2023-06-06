@@ -1,5 +1,6 @@
-<h2>Tela de Consulta</h2>
-<label for="id">ID (1-3):</label>
-<input type="number" id="id" [(ngModel)]="id">
-<br>
-<button (click)="buscar()">Buscar</button>
+<h2><i class="fas fa-search"></i> Tela de Consulta</h2>
+<div class="form-group">
+  <label for="id"><i class="fas fa-id-card"></i> ID (1-3):</label>
+</div>
+<button class="btn btn-primary" (click)="buscar()"><i class="fas fa-search"></i> Buscar</button>
+<p class="resultado"><i class="fas fa-user"></i> {{ nome }}</p>

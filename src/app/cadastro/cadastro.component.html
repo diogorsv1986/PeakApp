@@ -1,0 +1,19 @@
+<h2><i class="fas fa-edit"></i> Tela de Cadastro</h2>
+
+<div class="form-group">
+  <label for="parcelas"><i class="fas fa-list-ol"></i> Parcelas:</label>
+  <input type="number" id="parcelas" class="form-control" >
+</div>
+
+<div class="form-group">
+  <label for="valor"><i class="fas fa-dollar-sign"></i> Valor:</label>
+  <input type="number" id="valor" class="form-control" >
+</div>
+
+<div>
+    <button class="btn btn-primary" (click)="salvar">
+      <i class="fas fa-save"></i> Salvar
+    </button>
+    <p class="resultado"><i class="fas fa-money-bill-wave"></i> {{ resultado }}</p>
+  </div>
+  
